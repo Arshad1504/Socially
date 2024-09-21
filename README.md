@@ -10,8 +10,10 @@
 ## Tech Stack
 - *Backend*: Node.js, Express.js
 - *Frontend*: HTML, CSS, JavaScript
-- *Database*: MongoDB
+- *Database*: MySQL
 - *API Design*: REST API principles
+- *Packages*: mysql2, express, ejs, ejs-mate, method-override.
+
 
 ## Installation
 

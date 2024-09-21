@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOME PAGE | MERAMANN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/homestyles.css" />
+  </head>
+  <body>
+    <header class="header-after">
+      <a href="#" class="logo">MeraMann</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <form action="/login">
+        <button class="signin-btn" onclick="signIn()">Sign In</button>
+      </form>
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <header class="header-before">
+      <div class="logo"><a href="#" class="logo">MeraMann</a></div>
+      <form action="/login" method="get">
+        <button class="signin-btn">Sign In</button>
+      </form>
+    </header>
+    <main>
+      <div class="hero">
+        <h1>Connect, Share, and Explore</h1>
+        <p>Join our community and discover new connections today.</p>
+        <form action="/login">
+          <button class="cta-btn">Join Now</button>
+        </form>
+      </div>
+    </main>
+    <div class="nav-bg"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
