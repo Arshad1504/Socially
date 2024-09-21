@@ -12,7 +12,7 @@
 - *Frontend*: HTML, CSS, JavaScript
 - *Database*: MySQL
 - *API Design*: REST API principles
-- *Packages*: mysql2, express, ejs, ejs-mate, method-override.
+- *Packages*: mysql2, express, ejs, ejs-mate, method-override. 
 
 
 ## Installation
