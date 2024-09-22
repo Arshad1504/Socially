@@ -1,8 +1,9 @@
-body{
-    background: url(bg.jpeg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-size: cover;
-  }
+body {
+  background-color: #c9d6ff;
+  background: linear-gradient(to right, #4a90e2, #8e44ad);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+}
