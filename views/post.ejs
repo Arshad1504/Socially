@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>POST | MERAMANN</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POST | SOCIALLY</title>
+  </head>
+  <body>
     <h1>Available user <%=result[0].username%></h1>
+    <%try{%>
     <form action="/users/<%=result[0].id%>">
-        <button>Show All Posts</button>
+      <button>Show All Posts</button>
     </form>
-</body>
+    <%}catch(err){
+    <h3>Error Occured Go Back!!</h3>
+    }%>
+  </body>
 </html>

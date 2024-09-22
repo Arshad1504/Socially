@@ -1,13 +1,14 @@
 body{
-  background: url(bgimg1.png);
+  background: url(bg.jpeg);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-size: cover;
 }
 
 .main_box {
-  background: url(bgimg1.png);
+  background: url(bg.jpeg);
   align-self: flex-start;
   background-size: cover;
 }
